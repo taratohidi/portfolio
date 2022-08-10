@@ -6,6 +6,7 @@ function App() {
       <header className="App-header">
         <h1>tara tohidi</h1>
       </header>
+      <body class="container">Body part</body>
     </div>
   );
 }
