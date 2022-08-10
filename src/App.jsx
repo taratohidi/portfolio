@@ -15,9 +15,6 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1>tara tohidi</h1>
-        </header>
         <body class="container">
           <Sidebar />
           <Header />

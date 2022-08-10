@@ -2,6 +2,6 @@ import "./Projects.scss";
 import React from "react";
 
 function Projects() {
-  return <div>Projects</div>;
+  return <div className="projects">Projects</div>;
 }
 export default Projects;

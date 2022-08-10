@@ -1,0 +1,7 @@
+@use "../../styles/variables" as *;
+
+.features {
+  background-color: $color-grey-dark-1;
+  grid-column: center-start/center-end;
+  // grid-row: ;
+}
