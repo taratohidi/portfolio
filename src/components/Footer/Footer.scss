@@ -3,4 +3,46 @@
 .footer {
   background-color: $color-secondary;
   grid-column: full-start/full-end;
+
+  padding: 8rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4.8rem;
+
+  &__text {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: #fff;
+  }
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 3rem;
+
+  &__link:link,
+  &__link:visited {
+    color: #fff;
+    transition: all 0.2s;
+  }
+
+  &__link:hover,
+  &__link:active {
+    & > img {
+      filter: invert(93%) sepia(3%) saturate(1841%) hue-rotate(178deg)
+        brightness(98%) contrast(91%);
+    }
+    transform: translateY(-2px);
+  }
+
+  &__icon {
+    width: 4.5rem;
+    height: 4.5rem;
+    filter: invert(100%) sepia(0%) saturate(7490%) hue-rotate(184deg)
+      brightness(107%) contrast(97%);
+  }
 }

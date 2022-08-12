@@ -4,4 +4,16 @@
   background-color: $color-primary;
   grid-column: sidebar-start/sidebar-end;
   grid-row: 1/-1;
+
+  padding: 2rem 0;
+
+  display: flex;
+  justify-content: center;
+
+  &__icon {
+    filter: invert(100%) sepia(0%) saturate(7460%) hue-rotate(32deg)
+      brightness(115%) contrast(97%);
+    width: 4.5rem;
+    height: 4.5rem;
+  }
 }
