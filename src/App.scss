@@ -26,9 +26,9 @@
   }
 
   @media only screen and (max-width: $bp-medium) {
-    grid-template-rows: 6rem calc(100vh - 6rem);
+    grid-template-rows: 6rem calc(85vh - 6rem);
   }
   @media only screen and (max-width: $bp-smallest) {
-    grid-template-rows: 6rem calc(55vh - 6rem);
+    grid-template-rows: 6rem calc(70vh - 6rem);
   }
 }

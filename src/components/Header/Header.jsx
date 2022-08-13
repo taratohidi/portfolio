@@ -39,8 +39,8 @@ function Header() {
         </li> */}
       </nav>
 
-      <h2 className="heading-2 header__heading-2 ">This is Tara!</h2>
-      <h1 className="heading-1">full stack developer</h1>
+      <h2 className="heading-2 heading-2--light ">This is Tara!</h2>
+      <h1 className="heading-1 ">full stack developer</h1>
       <a href="/" className="btn header__btn">
         view my projects
       </a>

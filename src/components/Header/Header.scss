@@ -33,15 +33,14 @@
     justify-self: center;
   }
 
-  &__heading-2 {
-    font-size: 3.2rem;
-    color: $color-grey-light-1;
-  }
-
   &__nav {
     display: flex;
     justify-self: center;
     gap: 3rem;
+
+    &--link {
+      font-size: 1.6rem;
+    }
   }
 
   &__btn {
