@@ -27,7 +27,7 @@ function Header() {
             contact
           </a>
         </li>
-        <li className="header__nav--list">
+        {/* <li className="header__nav--list">
           <a href="/" className="header__nav--link">
             resume
           </a>
@@ -36,7 +36,7 @@ function Header() {
           <a href="/" className="header__nav--link">
             resources
           </a>
-        </li>
+        </li> */}
       </nav>
 
       <h2 className="heading-2 header__heading-2 ">This is Tara!</h2>
