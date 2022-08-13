@@ -1,4 +1,5 @@
 @use "../../styles/variables" as *;
+@use "../../styles/global" as *;
 
 .sidebar {
   background-color: $color-primary;
@@ -9,6 +10,14 @@
 
   display: flex;
   justify-content: center;
+
+  @media only screen and (max-width: $bp-large) {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2rem;
+  }
 
   &__icon {
     filter: invert(100%) sepia(0%) saturate(7460%) hue-rotate(32deg)

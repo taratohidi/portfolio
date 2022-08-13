@@ -1,4 +1,5 @@
 @use "../../styles/variables" as *;
+@use "../../styles/global" as *;
 
 .header {
   background-color: $color-grey-dark-1;
@@ -14,10 +15,14 @@
   padding-top: 4rem;
 
   display: grid;
-  grid-template-rows: 1fr 1.5fr min-content 8rem 1fr;
-  grid-template-columns: max-content;
+  grid-template-rows: 1fr 1.5fr min-content minmax(6rem, min-content) 1fr;
+  grid-template-columns: minmax(min-content, max-content);
   grid-row-gap: 1.5rem;
   justify-content: center;
+
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: 1 / -1;
+  }
 
   &__logo {
     color: #fff;
@@ -63,10 +68,11 @@
       grid-template-columns: repeat(4, 1fr);
       grid-column-gap: 3rem;
       justify-items: center;
+      align-items: center;
     }
     &-icon {
-      width: 6rem;
-      height: 6rem;
+      max-width: 4rem;
+      max-height: 4rem;
       filter: invert(100%) sepia(0%) saturate(7460%) hue-rotate(32deg)
         brightness(115%) contrast(97%);
     }

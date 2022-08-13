@@ -4,7 +4,7 @@ import React from "react";
 // Import Icons
 import react from "../../assets/icon/logo-react.svg";
 import nodejs from "../../assets/icon/logo-nodejs.svg";
-import mysql from "../../assets/icon/mysql-icon.svg";
+import mysql from "../../assets/icon/mysql.svg";
 
 function Skills() {
   return (
