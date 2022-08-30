@@ -6,24 +6,27 @@ import sass from "../../assets/icon/logo-sass.svg";
 import express from "../../assets/icon/logo-express.svg";
 import mongo from "../../assets/icon/mongodb-icon.svg";
 import js from "../../assets/icon/logo-javascript.svg";
+import logo from "../../assets/logo.png";
 
 function Header() {
   return (
     <header className="header">
-      <h3 className="heading-3 header__logo">TARA TOHIDI</h3>
+      <div className="heading-3 header__logo">
+        <img src={logo} alt="Tara Tohidi" className="header__img" />
+      </div>
       <nav className="header__nav">
         <li className="header__nav--list">
-          <a href="/" className="header__nav--link">
+          <a href="#story" className="header__nav--link">
             about
           </a>
         </li>
         <li className="header__nav--list">
-          <a href="/" className="header__nav--link">
+          <a href="#projects" className="header__nav--link">
             projects
           </a>
         </li>
         <li className="header__nav--list">
-          <a href="/" className="header__nav--link">
+          <a href="#contact" className="header__nav--link">
             contact
           </a>
         </li>
@@ -41,7 +44,7 @@ function Header() {
 
       <h2 className="heading-2 heading-2--light ">This is Tara!</h2>
       <h1 className="heading-1 ">full stack developer</h1>
-      <a href="/" className="btn header__btn">
+      <a href="#projects" className="btn header__btn">
         view my projects
       </a>
 

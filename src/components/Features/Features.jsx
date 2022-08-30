@@ -17,67 +17,67 @@ function Features() {
         <h4 className="feature__heading heading-4 heading-4--dark">
           Full Stack Developer
         </h4>
-        <p className="feature__text">
-          {" "}
+        {/* <p className="feature__text"> */}
+        {/* {" "}
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
           odit temporibus accusantium voluptatum.
-        </p>
+        </p> */}
       </div>
       <div className="feature">
         <img src={art} alt="feeture" className="feature__icon" />
         <h4 className="feature__heading heading-4 heading-4--dark">
           UI/UX Design
         </h4>
-        <p className="feature__text">
+        {/* <p className="feature__text">
           {" "}
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
           odit temporibus accusantium voluptatum.
-        </p>
+        </p> */}
       </div>
       <div className="feature">
         <img src={data} alt="feeture" className="feature__icon" />
         <h4 className="feature__heading heading-4 heading-4--dark">
           Data Seeker
         </h4>
-        <p className="feature__text">
+        {/* <p className="feature__text">
           {" "}
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
           odit temporibus accusantium voluptatum.
-        </p>
+        </p> */}
       </div>
       <div className="feature">
         <img src={study} alt="feeture" className="feature__icon" />
         <h4 className="feature__heading heading-4 heading-4--dark">
           Fast and Self-learner
         </h4>
-        <p className="feature__text">
+        {/* <p className="feature__text">
           {" "}
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
           aspernatur nulla accusantium veniam quo et qui mollitia.
-        </p>
+        </p> */}
       </div>
       <div className="feature">
         <img src={nature} alt="feeture" className="feature__icon" />
         <h4 className="feature__heading heading-4 heading-4--dark">
           Nature Lover
         </h4>
-        <p className="feature__text">
+        {/* <p className="feature__text">
           {" "}
           Obcaecati itaque molestiae optio deleniti amet repellendus quae
           tenetur atque ullam. At sed reiciendis modi repellat consequuntur.
-        </p>
+        </p> */}
       </div>
       <div className="feature">
         <img src={book} alt="feeture" className="feature__icon" />
         <h4 className="feature__heading heading-4 heading-4--dark">
           Book worm
         </h4>
-        <p className="feature__text">
+        {/* <p className="feature__text">
           {" "}
           Porro repudiandae laboriosam officiis. Explicabo, ipsam voluptatum!
           Mollitia cupiditate repellendus ex cumque ad aperiam reiciendis enim
           hic minus!
-        </p>
+        </p> */}
       </div>
     </div>
   );

@@ -13,7 +13,7 @@ import description from "../../assets/icon/chatbox-ellipses-outline.svg";
 
 function Projects() {
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <div className="project">
         <img src={img1} alt="Unbounce Project" className="project__img" />
         <h5 className="project__name"> Unbounce</h5>
@@ -56,7 +56,7 @@ function Projects() {
               alt="description"
               className="project__icon"
             />
-            <p>BrainStation Capston Project</p>
+            <p>BrainStation Capston Project, Full Stack ecommerce website</p>
           </div>
         </div>
         <a
@@ -138,7 +138,7 @@ function Projects() {
           </div>
         </div>
         <a
-          href="/"
+          href="https://mapty-tara.netlify.app/"
           className="btn project__link"
           target="_blank"
           rel="noreferrer"

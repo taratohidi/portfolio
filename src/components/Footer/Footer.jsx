@@ -9,7 +9,7 @@ import resume from "../../assets/icon/clipboard-outline.svg";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="contact">
       <nav className="nav">
         <li className="nav__item">
           <a
