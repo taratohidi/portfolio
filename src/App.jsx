@@ -8,7 +8,7 @@ import Skills from "./components/Skills/Skills";
 import Features from "./components/Features/Features";
 import Story from "./components/Story/Story";
 import Projects from "./components/projects/Projects";
-import Gallery from "./components/Gallery/Gallery";
+// import Gallery from "./components/Gallery/Gallery";
 import Footer from "./components/Footer/Footer";
 
 class App extends React.Component {
@@ -22,7 +22,7 @@ class App extends React.Component {
           <Features />
           <Story />
           <Projects />
-          <Gallery />
+          {/* <Gallery /> */}
           <Footer />
         </body>
       </div>

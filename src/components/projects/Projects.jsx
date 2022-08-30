@@ -15,12 +15,12 @@ function Projects() {
   return (
     <div className="projects">
       <div className="project">
-        <img src={img1} alt="Project 1" className="project__img" />
-        <h5 className="project__name"> project 1</h5>
+        <img src={img1} alt="Unbounce Project" className="project__img" />
+        <h5 className="project__name"> Unbounce</h5>
         <div className="project__box">
           <div className="project__codes">
             <img src={codes} alt="codes" className="project__icon" />
-            <p>Project Codes</p>
+            <p>React, Sass, react-beautiful-dnd </p>
           </div>
           <div className="project__description">
             <img
@@ -28,20 +28,27 @@ function Projects() {
               alt="description"
               className="project__icon"
             />
-            <p>Project description</p>
+            <p className="project__description--text">
+              Industry hackathon project with Unbounce
+            </p>
           </div>
         </div>
-        <a href="/" className="btn project__link">
+        <a
+          href="https://github.com/nancy-sun/unbounce-project-client"
+          className="btn project__link"
+          target="_blank"
+          rel="noreferrer"
+        >
           go to project
         </a>
       </div>
       <div className="project">
-        <img src={img2} alt="Project 1" className="project__img" />
-        <h5 className="project__name"> project 2</h5>
+        <img src={img2} alt="WePick Project" className="project__img" />
+        <h5 className="project__name"> WePick</h5>
         <div className="project__box">
           <div className="project__codes">
             <img src={codes} alt="codes" className="project__icon" />
-            <p>Project Codes</p>
+            <p>React, Node.js, Express, Axios, Sass</p>
           </div>
           <div className="project__description">
             <img
@@ -49,20 +56,25 @@ function Projects() {
               alt="description"
               className="project__icon"
             />
-            <p>Project description</p>
+            <p>BrainStation Capston Project</p>
           </div>
         </div>
-        <a href="/" className="btn project__link">
+        <a
+          href="https://github.com/taratohidi/WePick"
+          className="btn project__link"
+          target="_blank"
+          rel="noreferrer"
+        >
           go to project
         </a>
       </div>
       <div className="project">
-        <img src={img3} alt="Project 1" className="project__img" />
-        <h5 className="project__name"> project 3</h5>
+        <img src={img3} alt="Forkify Project" className="project__img" />
+        <h5 className="project__name"> Forkify </h5>
         <div className="project__box">
           <div className="project__codes">
             <img src={codes} alt="codes" className="project__icon" />
-            <p>Project Codes</p>
+            <p>HTML, Sass, JavaScript</p>
           </div>
           <div className="project__description">
             <img
@@ -70,20 +82,25 @@ function Projects() {
               alt="description"
               className="project__icon"
             />
-            <p>Project description</p>
+            <p>A modern application for searching recipes</p>
           </div>
         </div>
-        <a href="/" className="btn project__link">
+        <a
+          href="https://forkify-tara.netlify.app"
+          className="btn project__link"
+          target="_blank"
+          rel="noreferrer"
+        >
           go to project
         </a>
       </div>
       <div className="project">
-        <img src={img4} alt="Project 1" className="project__img" />
-        <h5 className="project__name"> project 4</h5>
+        <img src={img4} alt="Omnifood Project" className="project__img" />
+        <h5 className="project__name"> Omnifood </h5>
         <div className="project__box">
           <div className="project__codes">
             <img src={codes} alt="codes" className="project__icon" />
-            <p>Project Codes</p>
+            <p>HTML, Sass(Grid display)</p>
           </div>
           <div className="project__description">
             <img
@@ -91,20 +108,25 @@ function Projects() {
               alt="description"
               className="project__icon"
             />
-            <p>Project description</p>
+            <p>A food subscription site</p>
           </div>
         </div>
-        <a href="/" className="btn project__link">
+        <a
+          href="https://omnifood-tara.netlify.app/"
+          className="btn project__link"
+          target="_blank"
+          rel="noreferrer"
+        >
           go to project
         </a>
       </div>
       <div className="project">
-        <img src={img5} alt="Project 1" className="project__img" />
-        <h5 className="project__name"> project 5</h5>
+        <img src={img5} alt="Mapty Project" className="project__img" />
+        <h5 className="project__name"> Mapty </h5>
         <div className="project__box">
           <div className="project__codes">
             <img src={codes} alt="codes" className="project__icon" />
-            <p>Project Codes</p>
+            <p>HTML, CSS, JavaScript, Leaflet</p>
           </div>
           <div className="project__description">
             <img
@@ -112,20 +134,25 @@ function Projects() {
               alt="description"
               className="project__icon"
             />
-            <p>Project description</p>
+            <p>A site for tracking activities by location</p>
           </div>
         </div>
-        <a href="/" className="btn project__link">
+        <a
+          href="/"
+          className="btn project__link"
+          target="_blank"
+          rel="noreferrer"
+        >
           go to project
         </a>
       </div>
       <div className="project">
-        <img src={img6} alt="Project 1" className="project__img" />
-        <h5 className="project__name"> project 6</h5>
+        <img src={img6} alt="Daud House" className="project__img" />
+        <h5 className="project__name"> Daud House</h5>
         <div className="project__box">
           <div className="project__codes">
             <img src={codes} alt="codes" className="project__icon" />
-            <p>Project Codes</p>
+            <p>React, Sass</p>
           </div>
           <div className="project__description">
             <img
@@ -133,10 +160,15 @@ function Projects() {
               alt="description"
               className="project__icon"
             />
-            <p>Project description</p>
+            <p>A site for selling a house</p>
           </div>
         </div>
-        <a href="/" className="btn project__link">
+        <a
+          href="https://daad.s3-website.ir-thr-at1.arvanstorage.com/"
+          className="btn project__link"
+          target="_blank"
+          rel="noreferrer"
+        >
           go to project
         </a>
       </div>
